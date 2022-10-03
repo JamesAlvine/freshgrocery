@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+.about-product {
+  background-image: url(../../assets/images/slideshow-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-product-title .underline {
+  height: 5px;
+  width: 270px;
+  background: #00634e;
+}
+/*# sourceMappingURL=AboutProduct.css.map */

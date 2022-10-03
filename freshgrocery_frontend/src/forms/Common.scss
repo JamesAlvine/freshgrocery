@@ -1,0 +1,24 @@
+@import "../assets/styles/Variables.scss";
+
+.form-header{
+    background: $secondaryDark;
+    color: $light;
+}
+.form-btn{
+    padding: 0.8em 2em;
+    border: none;
+    background: $secondary;
+    color: $light;
+    border-radius: 0.5rem !important;
+}
+.form-btn:hover{
+    background: $primary;
+    color: $dark;
+}
+.form-link{
+    text-decoration: none;
+    color: $secondary;
+}
+.form-link:hover{
+    color: $primary;
+}

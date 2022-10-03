@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+.navbar {
+  /* background-color: whitesmoke !important; */
+  background-color: #45335d !important;
+  z-index: 100;
+  position: sticky;
+  top: 0;
+}
+
+.navbar_logo a {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 23px;
+  color: #fbfbfb !important;
+  /* color: #8e676d !important; */
+
+  /* font-style: italic; */
+}
+
+.navbar_logo i {
+  font-size: 26px;
+  margin-left: 2px;
+  color: #e1b7bf !important;
+}
+
+.navbar_logo div {
+  /* color: #45335d; */
+  width: 100px;
+  height: 4px;
+  background: #e1b7bf;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.nav-link {
+  color: #fbfbfb !important;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+/*medai queries*/
+@media (max-width: 992px) {
+  .buttons .btn{
+    width: 100%;
+  }
+
+  .buttons .btn:nth-child(1) {
+    margin-bottom: 50px !important;
+  }  
+}
+
+
+

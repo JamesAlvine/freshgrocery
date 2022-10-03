@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.links ul li {
+  padding: 5px 10px;
+  list-style: none;
+}
+
+.links ul li .link-item {
+  text-decoration: none;
+  color: #000;
+}
+
+.links ul li .link-item:hover {
+  color: #2b7216;
+  border-bottom: 3px solid #2b7216;
+}
+
+.links ul li .active {
+  color: #2b7216;
+  border-bottom: 3px solid #2b7216;
+}
+
+.product-name {
+  color: #292929;
+}
+
+.product-price s {
+  color: #585858fa;
+}
+
+.product-price h4 {
+  color: #292929;
+}
+/*# sourceMappingURL=App.css.map */

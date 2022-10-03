@@ -1,0 +1,22 @@
+@import "../../assets/styles/Variables.scss";
+
+.more-btn{
+    background: $secondary;
+    border-radius: 1.2em;
+    width: 150px;
+    .more-btn-link{
+        text-decoration: none;
+        .more{
+            color: $light;
+        }
+    }
+}
+.more-btn:hover{
+    background: $primary;
+    .more-btn-link{
+        .more{
+            color: $dark;
+        }
+    }
+}
+

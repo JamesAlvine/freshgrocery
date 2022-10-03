@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+.more-btn {
+  background: #00634e;
+  border-radius: 1.2em;
+  width: 150px;
+}
+
+.more-btn .more-btn-link {
+  text-decoration: none;
+}
+
+.more-btn .more-btn-link .more {
+  color: #fff;
+}
+
+.more-btn:hover {
+  background: #2b7216;
+}
+
+.more-btn:hover .more-btn-link .more {
+  color: #000;
+}
+/*# sourceMappingURL=Product.css.map */

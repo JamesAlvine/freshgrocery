@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+.footer {
+  background: #012920;
+  color: #fff;
+}
+
+.footer-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-links ul li {
+  padding: 5px 15px 0 0;
+  list-style: none;
+}
+
+.footer-links ul li .footer-link-item i {
+  color: #fff;
+}
+
+.footer-links ul li .footer-link-item i:hover {
+  color: #2b7216;
+}
+
+.copyright-payment {
+  background: #000f0c;
+}
+/*# sourceMappingURL=Footer.css.map */

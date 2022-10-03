@@ -1,0 +1,27 @@
+@import "../../assets/styles/Variables.scss";
+
+.footer{
+    background: $secondaryDark;
+    color: $light;
+}
+.footer-links{
+    ul{
+      display: flex;
+      li {
+        padding: 5px 15px 0 0;
+        list-style: none;
+        .footer-link-item{
+          i{
+            color: $light;
+          }
+          i:hover{
+            color: $primary;
+          } 
+        }
+     }
+    }
+}
+
+.copyright-payment{
+  background: $secondaryDarker;
+}

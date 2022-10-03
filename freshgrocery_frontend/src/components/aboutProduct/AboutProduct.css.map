@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,6EAAI;ADEZ,AAAA,cAAc,CAAA;EACV,gBAAgB,EAAE,wCAAwC;EAC1D,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;CACzB;;AACD,AACI,oBADgB,CAChB,UAAU,CAAA;EACN,MAAM,EAAE,GAAG;EACX,KAAK,EAAE,KAAK;EACZ,UAAU,ECFN,OAAO;CDGd",
+    "sources": [
+        "AboutProduct.scss",
+        "../../assets/styles/Variables.scss"
+    ],
+    "names": [],
+    "file": "AboutProduct.css"
+}

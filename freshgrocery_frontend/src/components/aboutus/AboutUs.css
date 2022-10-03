@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about{
+    padding-top: 2em;
+    height: auto;
+    background-color: #45335D;
+}
+
+.about_underline {
+    border: none;
+    height: 6px;
+    margin: 0;
+    width: 80%;
+    border-radius: 0.2em;
+    background: #E1B7BF;
+
+}
+ .about_content h2{
+    color: #fff;
+    font-weight: 600;
+ }
+
+.about_message{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    flex-direction: column;
+}
+
+.about_image img{
+    width:100%;
+    height:auto;
+    align-items: center;
+}
+
+@media (max-width:1200px){
+    .about_content{
+       display: block;
+    }
+}
+
+
+
+
+
+
+

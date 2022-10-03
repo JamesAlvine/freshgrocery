@@ -1,0 +1,14 @@
+@import "../../assets/styles/Variables.scss";
+
+.about-product{
+    background-image: url(../../assets/images/slideshow-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-product-title{
+    .underline{
+        height: 5px;
+        width: 270px;
+        background: $secondary;
+    }
+}

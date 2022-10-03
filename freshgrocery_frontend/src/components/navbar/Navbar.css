@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+/*------------------------
+Navigating styling
+------------------------ */
+header {
+  margin: 20px 0;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.logo h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.logo h1 a {
+  text-decoration: none;
+  color: #2b7216;
+}
+
+.logo h1 a:hover {
+  color: #00634e;
+}
+
+.toggle-btn {
+  display: none;
+}
+
+.logout-btn {
+  padding: 0.5em 1.0em;
+  background: #753900;
+  color: #fff;
+  border-radius: 0.5rem !important;
+  border: none;
+}
+
+.logout-btn:hover {
+  background: #9e5613;
+}
+
+@media all and (max-width: 992px) {
+  .logo h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .logo span {
+    display: none;
+  }
+  .switch_btn {
+    color: #00634e;
+  }
+  .toggle-btn {
+    display: block;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */

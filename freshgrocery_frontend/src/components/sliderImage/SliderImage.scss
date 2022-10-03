@@ -1,0 +1,53 @@
+@import "../../assets/styles/Variables.scss";
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-slider {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  margin: 10px;
+  .slide {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    clip-path: circle(0% at 0 50%);
+
+    img {
+      z-index: 1;
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+
+  .slide.active {
+    clip-path: circle(150% at 0 50%);
+    transition: 2s;
+    transition-property: clip-path;
+  }
+
+  .navigation {
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .btn {
+      background: $gray;
+      width: 12px;
+      height: 12px;
+      margin: 10px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    .btn.active {
+      background: $secondary;
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    }
+  }
+}

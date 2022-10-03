@@ -1,0 +1,47 @@
+@import "./assets/styles/Variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: $Poppins;
+}
+
+.links {
+  ul {
+    display: flex;
+    li {
+      padding: 5px 10px;
+      list-style: none;
+      .link-item {
+        text-decoration: none;
+        color: $dark;
+      }
+      .link-item:hover {
+        color: $primary;
+        border-bottom: 3px solid $primary;
+      }
+      .active {
+        color: $primary;
+        border-bottom: 3px solid $primary;
+      }
+    }
+  }
+}
+
+.product-name {
+  color: $lightDark;
+}
+
+.product-price {
+  s {
+    color: $lightDarker;
+  }
+  h4 {
+    color: $lightDark;
+  }
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+$Poppins: "Poppins", sans-serif;
+
+//Colors
+$dark: #000;
+$lightDark: #292929;
+$lightDarker: #585858fa;
+$gray: #ffffff80;
+$light: #fff;
+$primary:  #2b7216;;
+$secondary: #00634e;
+$secondaryDark: #012920;
+$secondaryDarker: #000f0c;
+$danger:#753900;
+$dangerLight: #9e5613;
+
+
+@mixin breakpoint($point) {
+    @if $point == md {
+        //768px
+        @media (min-width: 48em){
+            @content;
+        }
+    }
+}

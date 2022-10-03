@@ -1,0 +1,70 @@
+@import "../../assets/styles/Variables.scss";
+
+/*------------------------
+Navigating styling
+------------------------ */
+header {
+   margin: 20px 0;
+}
+
+.navbar {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.logo {
+  h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    a{
+      text-decoration: none;
+      color: $primary;
+    }
+    a:hover{
+      color: $secondary;
+    }
+ }
+}
+
+.toggle-btn{
+  display: none;
+}
+
+.logout-btn{
+  padding: 0.5em 1.0em;
+  background: $danger;
+  color: $light;
+  border-radius: 0.5rem !important;
+  border: none;
+}
+.logout-btn:hover{
+  background: $dangerLight;
+}
+
+@media all and (max-width: 992px){
+  .logo {
+    h1 {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 30px;
+   }
+   span {
+     display: none;
+   }
+  }
+
+  .switch_btn{
+    color: $secondary;
+  }
+
+  .toggle-btn{
+    display: block;
+  }
+}
+
+
+
+
+
