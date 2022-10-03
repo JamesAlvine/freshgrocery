@@ -10,6 +10,9 @@ this has all the database functionalities
 
 ### frontend
 this contains all the fronend/ui 
+
+
+
 ## API Reference
 
 #### Get all items
@@ -37,11 +40,6 @@ this contains all the fronend/ui
 Takes two numbers and returns the sum.
 
 
-## Author
-
-- [@JamesAlvine](https://www.github.com/JamesAlvine)
-
-
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
@@ -60,10 +58,13 @@ To deploy this project run
 ```
 
 
-## Features
+## Contributing
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
+Contributions are always welcome!
+
+
+
+## Author
+
+- [@JamesAlvine](https://www.github.com/JamesAlvine)
 
